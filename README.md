@@ -15,9 +15,6 @@
     3. Configure User Permissions
         1. Add a lab user to the docker group
           ###  sudo usermod -aG docker cloud_user
+          Log out and log back in
     4. Run a test image
-     ###   docker run hello-world
-2. Working With Prebuilt Docker
-3. Handcrafting a Container Image
-   1. sub-item 1 of item 3
-   2. sub-item 2 of item 3
+     ### docker run hello-world
